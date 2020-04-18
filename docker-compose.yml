@@ -1,0 +1,73 @@
+version: '3.3'
+
+services:
+   db-piani:
+     image: mysql:5.7
+     volumes:
+       - db_data_piani:/var/lib/mysql
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: somewordpress
+       MYSQL_DATABASE: wordpress
+       MYSQL_USER: wordpress
+       MYSQL_PASSWORD: wordpress
+   db-pogrom:
+     image: mysql:5.7
+     volumes:
+       - db_data_pogrom:/var/lib/mysql
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: somewordpress
+       MYSQL_DATABASE: wordpress
+       MYSQL_USER: wordpress
+       MYSQL_PASSWORD: wordpress
+   db-bibmundo:
+     image: mysql:5.7
+     volumes:
+       - db_data_bibmundo:/var/lib/mysql
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: somewordpress
+       MYSQL_DATABASE: wordpress
+       MYSQL_USER: wordpress
+       MYSQL_PASSWORD: wordpress
+   wordpress-piani:
+     depends_on:
+       - db-piani
+     image: wordpress:latest
+     ports:
+       - "8000:80"
+     restart: always
+     environment:
+       WORDPRESS_DB_HOST: db-piani:3306
+       WORDPRESS_DB_USER: wordpress
+       WORDPRESS_DB_PASSWORD: wordpress
+       WORDPRESS_DB_NAME: wordpress
+   wordpress-pogrom:
+     depends_on:
+       - db-pogrom
+     image: wordpress:latest
+     ports:
+       - "8001:80"
+     restart: always
+     environment:
+       WORDPRESS_DB_HOST: db-pogrom:3306
+       WORDPRESS_DB_USER: wordpress
+       WORDPRESS_DB_PASSWORD: wordpress
+       WORDPRESS_DB_NAME: wordpress
+   wordpress-bibmundo:
+     depends_on:
+       - db-bibmundo
+     image: wordpress:latest
+     ports:
+       - "8002:80"
+     restart: always
+     environment:
+       WORDPRESS_DB_HOST: db-bibmundo:3306
+       WORDPRESS_DB_USER: wordpress
+       WORDPRESS_DB_PASSWORD: wordpress
+       WORDPRESS_DB_NAME: wordpress
+volumes:
+    db_data_piani: {}
+    db_data_pogrom: {}
+    db_data_bibmundo: {}
