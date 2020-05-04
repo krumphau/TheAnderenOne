@@ -912,8 +912,8 @@ font-family: 'Karla', sans-serif;
 .site-header a {color: #FFFFFF; text-decoration: none;}
 .site-header a.hover {color: #FFB433;}
 
-.site-title {padding-top: 25%; display: block;}
-.site-description {padding-bottom: 25%; display: block;}
+.site-title { display: block;}
+.site-description { display: block;}
 
 .owl-logo {float: right;}
 
