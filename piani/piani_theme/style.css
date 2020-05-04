@@ -912,6 +912,9 @@ font-family: 'Karla', sans-serif;
 .site-header a {color: #FFFFFF; text-decoration: none;}
 .site-header a.hover {color: #FFB433;}
 
+.site-title {margin-top: 25%}
+.site-description {margin-bottom: 25%}
+
 /*
 Footer
  */
