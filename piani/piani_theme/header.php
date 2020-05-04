@@ -27,7 +27,7 @@
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
-			<div>
+			<div style = "height: auto;">
 			<?php
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
