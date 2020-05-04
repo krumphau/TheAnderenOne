@@ -27,27 +27,33 @@
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
-
+      <div class="flex-body">
+				<div class="flex-column">
 			<?php
-			the_custom_logo();
+			//the_custom_logo();
 			if ( is_front_page() && is_home() ) :
 				?>
-
+      <div>
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 				<?php
 			else :
 				?>
 
 				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+			</div>
 				<?php
 			endif;
 			$piani_theme_description = get_bloginfo( 'description', 'display' );
 			if ( $piani_theme_description || is_customize_preview() ) :
 				?>
-				<p class="site-description"><?php echo $piani_theme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
-          <img class = 'owl-logo' src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/>
-				</p>
+				<div><p class="site-description"><?php echo $piani_theme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
+				</p></div>
+			</div>
+			<div class="flex-row">
+				<div><img class = 'owl-logo' src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/></div>
+      </div>
+			</div><!--.end flex-body-->
 			<?php endif; ?>
 
 		<!-- .site-branding -->
