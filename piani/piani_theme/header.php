@@ -44,10 +44,12 @@
 			$piani_theme_description = get_bloginfo( 'description', 'display' );
 			if ( $piani_theme_description || is_customize_preview() ) :
 				?>
-				<p class="site-description"><?php echo $piani_theme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
+				<p class="site-description"><?php echo $piani_theme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+          img class = 'owl-logo' src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/>
+				</p>
 
 			<?php endif; ?>
-			<img class = 'owl-logo' src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/>
+
 		<!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
