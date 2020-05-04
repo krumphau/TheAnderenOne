@@ -948,6 +948,7 @@ Header
 */
 
 .site-header {
+	margin-top: -20px;
 	background-color: #2a92ff;
   color: #ffffff;
   display: block;
@@ -959,7 +960,7 @@ Header
 .site-header a {color: #FFFFFF; text-decoration: none;}
 .site-header a.hover {color: #FFB433;}
 
-.site-title { display: block; margin-top: -20px;}
+.site-title { display: block; }
 .site-description { display: block;}
 
 .owl-logo {float: right;}
