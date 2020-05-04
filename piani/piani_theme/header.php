@@ -31,7 +31,7 @@
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
 				?>
-				<div style="float: left; width: 75%;">
+
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 				<?php
 			else :
@@ -44,7 +44,7 @@
 			if ( $piani_theme_description || is_customize_preview() ) :
 				?>
 				<p class="site-description"><?php echo $piani_theme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			  </div>
+			  
 			<?php endif; ?>
 			<div class='owl-logo'><img src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"></div>
 		</div><!-- .site-branding -->
