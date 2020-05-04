@@ -964,8 +964,8 @@ Header
 .site-header a {color: #FFFFFF; text-decoration: none;}
 .site-header a.hover {color: #FFB433;}
 
-.site-title h1 { display: block; color: #ffffff;}
-.site-description p { display: block; color: #ffffff;}
+.site-title h1 { color: #ffffff;}
+.site-description p {  color: #ffffff;}
 
 
 
