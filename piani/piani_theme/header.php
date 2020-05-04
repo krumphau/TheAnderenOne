@@ -27,7 +27,7 @@
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
-			
+
 			<?php
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
@@ -47,8 +47,8 @@
 				<p class="site-description"><?php echo $piani_theme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 
 			<?php endif; ?>
-			<div class='owl-logo'><img src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"></div>
-		</div><!-- .site-branding -->
+			<img class = 'owl-logo' src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/>
+		<!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'piani_theme' ); ?></button>
