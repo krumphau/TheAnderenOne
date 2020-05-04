@@ -970,11 +970,13 @@ Header
 .flex-row {
     flex-direction: row;
     display: flex;
+		width: 50%;
 }
 
 .flex-column {
     flex-direction: column;
     display: flex;
+		width: 50%;
 }
 
 .flex-body {
