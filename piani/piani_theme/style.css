@@ -906,6 +906,9 @@ width: 100%;
 height: 10%;
 }
 
+.site-header a {color: #FFFFFF;}
+.site-header a.hover {color: #FFB433;}
+
 /*
 Footer
  */
