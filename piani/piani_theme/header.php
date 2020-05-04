@@ -53,7 +53,8 @@
 			<div class="flex-row">
 				<div><img class = 'owl-logo' src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/></div>
       </div>
-			</div><!--.end flex-body-->
+			</div>
+		</div><!--.end flex-body-->
 			<?php endif; ?>
 
 		<!-- .site-branding -->
