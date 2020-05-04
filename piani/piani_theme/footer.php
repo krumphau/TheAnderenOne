@@ -10,9 +10,9 @@
  */
 
 ?>
-
+<p>HELLO WORLD</p>
 	<footer id="colophon" class="site-footer">
-		
+
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
