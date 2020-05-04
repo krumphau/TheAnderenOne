@@ -982,9 +982,8 @@ Header
 }
 
 .flex-body div:not([class*="flex"]) {
-    border: 1px solid white;
-    flex: 1 1 200px;
-    width: 300px;
+    flex: 1 1 100%;
+    width: 100%;
 }
 
 /*
