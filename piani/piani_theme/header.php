@@ -52,7 +52,7 @@
 			  </div>
 			</div>
 			<div class="flex-row">
-				<div style='float: right;'><img style = 'float:right;' src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/></div>
+				<div style='float: right;'><img style = 'float:right;' height='74' src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/></div>
       </div>
 			</div><!--.end flex-body-->
 			<?php endif; ?>
