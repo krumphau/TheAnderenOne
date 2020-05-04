@@ -34,7 +34,7 @@ services:
    wordpress-piani:
      depends_on:
        - db-piani
-     image: wordpress:latest
+     build: piani/.
      ports:
        - "8000:80"
      restart: always
