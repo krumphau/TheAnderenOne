@@ -43,7 +43,7 @@
 				?>
 				<p class="site-description"><?php echo $piani_theme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 			<?php endif; ?>
-			<div class='owl-logo'><img src = "images/logotype_white@2x.png"></div>
+			<div class='owl-logo'><img src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"></div>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
