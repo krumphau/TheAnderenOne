@@ -599,13 +599,13 @@ a {
 }
 
 a:visited {
-	color: #800080;
+	color: #ffb433;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: #191970;
+	color: #ffb433;
 }
 
 a:focus {
@@ -961,8 +961,8 @@ Header
   font-family: 'Karla', sans-serif;
 }
 
-.site-header a {color: #FFFFFF; text-decoration: none;}
-.site-header a.hover {color: #FFB433;}
+.site-header a {color: #ffffff; text-decoration: none;}
+.site-header a.hover {color: #ffb433;}
 
 .site-title h1 { color: #ffffff;}
 .site-description { color: #ffffff;}
