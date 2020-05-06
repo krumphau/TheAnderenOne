@@ -30,32 +30,27 @@
 		<div class="site-branding">
       <div class="flex-body">
 
-				<div class="flex-column">
+				<div class="flex-column" style="margin-left:48px;">
 			<?php
 			if ( is_front_page() && is_home() ) :
 				?>
-      <div style="margin-left: 48px;">
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			</div>
 				<?php
 			else :
 				?>
-      <div style="margin-left: 48px;">
 				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-			</div>
 
 				<?php
 			endif;
 			$piani_theme_description = get_bloginfo( 'description', 'display' );
 			if ( $piani_theme_description || is_customize_preview() ) :
 				?>
-				<div style="margin-left: 48px;">
-				<div><p class="site-description"><?php echo $piani_theme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-        </div>
-				</div>
+
+				<p class="site-description"><?php echo $piani_theme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
+
 			</div>
 			<div class="flex-column">
-				<div style='float: right;'><img style = 'float:right; padding-right: 48px; margin-top: 48px; height:74px;'  src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/></div>
+				<div style='float: right;'><img style = 'float:right; padding-right: 48px; margin-top: auto; margin-bottom: auto; height:74px;'  src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/></div>
       </div>
 			</div><!--.end flex-body-->
 			<?php endif; ?>
