@@ -29,13 +29,7 @@
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
       <div class="flex-body">
-				<div class="flex-column">
-				<!-- Collapse button -->
-          <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
-	           aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="white-text"><i
-			       class="fas fa-bars fa-1x"></i></span></button>
 
-        </div>
  <!-- Collapsible content -->
 				<div class="flex-column">
 			<?php
@@ -68,15 +62,4 @@
 
 		<!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'piani_theme' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
-		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
