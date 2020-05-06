@@ -788,6 +788,9 @@ a:active {
 	margin: 0 0 1.5em;
 }
 
+.widget-area {
+	margin-left: 30px;
+}
 .widget select {
 	max-width: 100%;
 }
