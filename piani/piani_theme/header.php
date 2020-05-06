@@ -48,8 +48,10 @@
 			$piani_theme_description = get_bloginfo( 'description', 'display' );
 			if ( $piani_theme_description || is_customize_preview() ) :
 				?>
+				<div style="margin-left: 30px;">
 				<div><p class="site-description"><?php echo $piani_theme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			  </div>
+        </div>
+				</div>
 			</div>
 			<div class="flex-row">
 				<div style='float: right;'><img style = 'float:right; padding-right: 30px; margin-top: 30px; height:74px;'  src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/></div>
