@@ -12,7 +12,7 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-<h4>Cerca catalogo BIS</h4>
+     <h4 style="color:#ffffff;">Cerca catalogo BIS</h4>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
