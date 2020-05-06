@@ -36,13 +36,13 @@
 			//the_custom_logo();
 			if ( is_front_page() && is_home() ) :
 				?>
-      <div>
+      <div style+"margin-right: 30px;">
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			</div>
 				<?php
 			else :
 				?>
-      <div>
+      <div style="margin-right: 30px;">
 				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 			</div>
 		</div>
