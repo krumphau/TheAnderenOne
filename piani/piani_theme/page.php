@@ -14,7 +14,7 @@
 
 get_header();
 ?>
-<div style="margin-left:15px;">
+<div style="padding-left:15px;">
 	<main id="primary" class="site-main">
 
 		<?php
