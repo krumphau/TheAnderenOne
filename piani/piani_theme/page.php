@@ -14,8 +14,8 @@
 
 get_header();
 ?>
-
-	<main id="primary" class="site-main" style="margin-left:15px;">
+<div style="margin-left:15px;">
+	<main id="primary" class="site-main">
 
 		<?php
 		while ( have_posts() ) :
@@ -32,7 +32,7 @@ get_header();
 		?>
 
 	</main><!-- #main -->
-
+</div>
 <?php
 get_sidebar();
 get_footer();
