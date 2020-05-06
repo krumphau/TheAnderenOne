@@ -50,7 +50,7 @@
 
 			</div>
 			<div class="flex-column">
-				<div class = "align-self-center" style='float: right;'><img style = 'padding-right: 48px; height:74px;'  src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/></div>
+				<div class = "align-self-center"><img style = 'float: right; padding-right: 48px; padding-top:48px; height:74px;'  src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/></div>
       </div>
 			</div><!--.end flex-body-->
 			<?php endif; ?>
