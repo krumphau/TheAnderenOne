@@ -14,7 +14,9 @@
 
 get_header();
 ?>
-
+<div class="container">
+	<div class="row">
+		<div class="col">
 	<main id="primary" class="site-main">
 
 		<?php
@@ -51,7 +53,12 @@ get_header();
 		?>
 
 	</main><!-- #main -->
-
+</div>
+<div class="col">
 <?php
 get_sidebar();
 get_footer();
+?>
+      </div>
+   </div>
+</div>
