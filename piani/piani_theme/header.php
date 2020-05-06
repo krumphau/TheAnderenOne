@@ -29,20 +29,17 @@
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
       <div class="flex-body">
-
- <!-- Collapsible content -->
 				<div class="flex-column">
 			<?php
-			//the_custom_logo();
 			if ( is_front_page() && is_home() ) :
 				?>
-      <div style+"margin-right: 30px;">
+      <div style="margin-left: 30px;">
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			</div>
 				<?php
 			else :
 				?>
-      <div style="margin-right: 30px;">
+      <div style="margin-left: 30px;">
 				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 			</div>
 		</div>
