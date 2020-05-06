@@ -43,7 +43,7 @@
       <div style="margin-left: 48px;">
 				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 			</div>
-		</div>
+
 				<?php
 			endif;
 			$piani_theme_description = get_bloginfo( 'description', 'display' );
@@ -54,7 +54,7 @@
         </div>
 				</div>
 			</div>
-			<div class="flex-row">
+			<div class="flex-column">
 				<div style='float: right;'><img style = 'float:right; padding-right: 48px; margin-top: 48px; height:74px;'  src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/></div>
       </div>
 			</div><!--.end flex-body-->
