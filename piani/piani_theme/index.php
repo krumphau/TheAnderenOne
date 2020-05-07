@@ -15,7 +15,7 @@
 get_header();
 ?>
 <div class="container">
-	<div class="row" style="padding-left: 0px;">
+	<div class="row" style="margin-left:0px;">
 		<div class="col">
 	<main id="primary" class="site-main">
 
