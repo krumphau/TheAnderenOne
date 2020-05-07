@@ -28,7 +28,7 @@
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding row">
-
+        <div class="col-1"></div>
 				<div class="col-5" >
 			<?php
 			if ( is_front_page() && is_home() ) :
@@ -51,6 +51,7 @@
 			<div class="col-5">
 				<div class = "align-self-center"><img style = 'float: right; padding-right: 48px; padding-top:30px; height:74px;'  src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/></div>
       </div>
+			<div class="col-1"></div>
 			</div><!--.end flex-body-->
 			<?php endif; ?>
 
