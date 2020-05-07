@@ -27,8 +27,7 @@
 	<div class="container" >
 
 	<header id="masthead" class="site-header">
-		<div class="row" >
-		<div class="site-branding">
+		<div class="site-branding row">
 
 				<div class="col-5" >
 			<?php
@@ -56,5 +55,4 @@
 			<?php endif; ?>
 
 		<!-- .site-branding -->
-</div>
 	</header><!-- #masthead -->
