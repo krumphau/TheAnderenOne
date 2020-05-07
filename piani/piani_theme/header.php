@@ -56,6 +56,5 @@
 			<?php endif; ?>
 
 		<!-- .site-branding -->
-
-	</header><!-- #masthead -->
 </div>
+	</header><!-- #masthead -->
