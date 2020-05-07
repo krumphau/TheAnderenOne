@@ -10,10 +10,16 @@
  */
 
 ?>
-
-	<footer id="colophon" class="site-footer" style="padding-left:48px;">
+<div class="container">
+	<div class="row">
+		<div class="col-5">
+	<footer id="colophon" class="site-footer">
      <h6 style="color:#ffffff;">Cerca catalogo BIS</h6>
 	</footer><!-- #colophon -->
+</div>
+    <div class ="col-5">></div>
+</div>
+</div>
 </div><!-- #page -->
 
 
