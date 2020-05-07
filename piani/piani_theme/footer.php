@@ -11,7 +11,7 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
+	<footer id="colophon" class="site-footer" style="padding-left:48px;">
      <h6 style="color:#ffffff;">Cerca catalogo BIS</h6>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
