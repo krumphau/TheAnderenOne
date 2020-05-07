@@ -16,7 +16,7 @@ get_header();
 ?>
 <div class="container" style="padding-left:0px; padding-right:0px;">
 	<div class="row" >
-		<div class="col">
+		<div class="col" style="padding-left:0px; padding-right:0px;">
 	<main id="primary" class="site-main">
 
 		<?php
@@ -54,7 +54,7 @@ get_header();
 
 	</main><!-- #main -->
 </div>
-<div class="col">
+<div class="col" style="padding-left:0px; padding-right:0px;">
 <?php
 get_sidebar();
 ?>
