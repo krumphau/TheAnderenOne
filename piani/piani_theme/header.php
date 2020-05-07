@@ -26,11 +26,10 @@
 <div id="page" class="site">
 	<div class="container" >
 
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'piani_theme' ); ?></a>
-
 	<header id="masthead" class="site-header">
+		<div class="row" >
 		<div class="site-branding">
-			<div class="row" >
+
 				<div class="col-5" >
 			<?php
 			if ( is_front_page() && is_home() ) :
@@ -59,3 +58,4 @@
 		<!-- .site-branding -->
 
 	</header><!-- #masthead -->
+</div>
