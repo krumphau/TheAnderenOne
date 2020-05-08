@@ -1029,6 +1029,7 @@ color: #004d40;
 .fixed-col {
     -ms-flex: 0 0 48px;
     flex: 0 0 48px;
+		background-color: greenyellow;
 }
 
 @media (max-width: 690px) {
