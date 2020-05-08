@@ -23,10 +23,10 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-<div id="page" class="site" style ="height:100%;">
+<div id="page" class="site" style ="height:100%; padding: 0px;">
 
 
-	<header id="masthead" class="site-header" style='margin: 0px;'>
+	<header id="masthead" class="site-header">
 		<div class="container" >
 		<div class="site-branding row">
 				<div class="col-6" >
