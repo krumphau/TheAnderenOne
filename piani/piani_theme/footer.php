@@ -13,10 +13,14 @@
 <footer id="colophon" class="site-footer">
 <div class="container">
 	<div class="row">
+		<div class = "col-1 fixed-col">
+		</div>
 		<div class="col-5">
       <h6 style="color:#ffffff;">Cerca catalogo BIS</h6>
     </div>
     <div class ="col-5">
+		</div>
+		<div class = "col-1 fixed-col">
 		</div>
   </div>
 </div>
