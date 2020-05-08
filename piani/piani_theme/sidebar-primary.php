@@ -1,3 +1,3 @@
 <div id="sidebar-primary" class="sidebar">
-    <?php dynamic_sidebar( 'primary' ); ?>
+    <h2>test sidebar</h2>
 </div>
