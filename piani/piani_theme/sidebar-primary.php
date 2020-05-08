@@ -1,3 +1,12 @@
 <div id="sidebar-primary" class="sidebar">
-    <h2>test sidebar</h2>
+    <h2>Orari di Apertura</h2>
+    <ul>
+    <li>Lunedi: 15-18</li>
+    <li>Martedi: 9-13 / 15-18</li>
+    <li>Mercoledi: 9-13 / 15-19</li>
+    <li>Giovedi: 9-16</li>
+    <li>Venerdi: 9-13</li>
+    </ul>
+
+    <span>Orario: Aperto</span>
 </div>
