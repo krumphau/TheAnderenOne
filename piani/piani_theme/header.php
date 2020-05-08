@@ -48,10 +48,10 @@
 				<p class="site-description"><?php echo $piani_theme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 
 			</div>
-			<div class="col-6">
+			<div class="col-5">
 				<div style = 'float: right;'><img style = 'float: right; padding-top:30px; height:74px;'  src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/></div>
       </div>
-      <div style = 'float: right;'><img style = 'float: right; padding-top:30px; height:74px;'  src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/></div>
+      <div class='col-1'><img style = 'float: right; padding-top:30px; height:74px;'  src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/></div>
 			</div><!--.end flex-body-->
 
 			<?php endif; ?>
