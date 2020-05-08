@@ -26,7 +26,7 @@
 <div id="page" class="site" style ="height:100%;">
 
 
-	<header id="masthead" class="site-header" style='padding: 0px;'>
+	<header id="masthead" class="site-header" style='margin: 0px;'>
 		<div class="container" >
 		<div class="site-branding row">
 				<div class="col-6" >
