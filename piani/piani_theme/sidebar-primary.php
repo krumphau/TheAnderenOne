@@ -11,5 +11,5 @@
     <span>Orario: Aperto</span>
 </div>
 <div>
-  <img src="<?php echo $theme; ?>/images/logo.png"/>
+  <img src="/piani_theme/images/logo.png"/>
 </div>
