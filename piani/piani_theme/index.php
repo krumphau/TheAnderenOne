@@ -18,7 +18,7 @@ get_header();
 	<div class="row" >
 		<div class="col-6" >
 	<main id="primary" class="site-main">
-
+    <h2>Novità e Agenda</h2>
 		<?php
 		if ( have_posts() ) :
 
