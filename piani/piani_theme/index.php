@@ -16,7 +16,7 @@ get_header();
 ?>
 <div class="container" >
 	<div class="row" >
-		<div class = "col-1 fixed-col">
+		<div class = "fixed-col">
 		</div>
 		<div class="col-5" >
 	<main id="primary" class="site-main">
@@ -61,7 +61,7 @@ get_header();
 get_sidebar( 'primary' );
 ?>
       </div>
-			<div class = "col-1 fixed-col">
+			<div class = "fixed-col">
 			</div>
    </div>
 </div>
