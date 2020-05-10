@@ -1038,11 +1038,11 @@ color: #004d40;
   }
 }
 
-.container {padding-right: 48px; padding-left: 48px; margin: 0px; width: auto;}
+.container {padding-right: 48px; padding-left: 48px; margin: 0px; width: 100%;}
 
 .sidebar {background-color:#ffeed6;}
 
-.custom-menu-class {margin:0px; padding-left:0px;  width: auto; float:left;}
+.custom-menu-class {margin:0px; padding-left:0px;  width: 50px; float:left;}
 
 .custom-menu-class ul ul {
     display: none;
@@ -1058,8 +1058,4 @@ color: #004d40;
 		color: #ffffff;
     background: #2a92ff;
     box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
-}
-
-.custom-menu-class li {
-    position: relative;
 }
