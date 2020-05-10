@@ -17,6 +17,7 @@
       <h6 style="color:#ffffff;">Cerca catalogo BIS</h6>
     </div>
     <div class ="col-6">
+			<img src="http://3.15.13.29:8000/wp-content/themes/piani/images/arrow.png" style="float:right;">
 		</div>
   </div>
 </div>
