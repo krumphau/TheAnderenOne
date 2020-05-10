@@ -23,13 +23,13 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-<div id="page" class="site" style ="height:100%;">
+<div id="page" class="site" style ="height:100%; width: 100%;">
 
 
-	<header id="masthead" class="site-header">
+	<header id="masthead" class="site-header" style='width:100%'>
 		<div class="container" >
 		<div class="site-branding row">
-				<div class="col-7" >
+				<div class="col-6" >
 			<?php
 			if ( is_front_page() && is_home() ) :
 				?>
