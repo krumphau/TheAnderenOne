@@ -29,7 +29,7 @@
 	<header id="masthead" class="site-header">
 		<div class="container" >
 		<div class="site-branding row">
-				<div class="col-6" >
+				<div class="col-7" >
 			<?php
 			if ( is_front_page() && is_home() ) :
 				?>
