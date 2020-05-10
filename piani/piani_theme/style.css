@@ -1042,6 +1042,8 @@ color: #004d40;
 
 .sidebar {background-color:#ffeed6;}
 
+.custom-menu {margin:0px; padding-left:0px;}
+
 .custom-menu-class ul ul {
     display: none;
 }
@@ -1055,7 +1057,7 @@ color: #004d40;
     z-index: 99999;
 		color: #ffffff;
     background: #2a92ff;
-		background-image: url(http://3.15.13.29:8000/wp-content/themes/open-iconic-master/png/menu.png);
+		background-image: url("http://3.15.13.29:8000/wp-content/themes/open-iconic-master/png/menu.png");
     box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
 }
 
