@@ -33,11 +33,11 @@
 			<?php
 			if ( is_front_page() && is_home() ) :
 				?>
-				<h1 class="site-title" style="margin-bottom:8px;"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+				<h1 class="site-title" style="margin-bottom:8px; font-size: 24px;"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 				<?php
 			else :
 				?>
-				<h1 class="site-title" style="margin-bottom:8px;"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+				<h1 class="site-title" style="margin-bottom:8px; font-size: 24px;"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 
 				<?php
 			endif;
@@ -49,7 +49,7 @@
 
 			</div>
 			<div class="col-6">
-				<div style = 'float: right;'><img style = 'float: right; padding-top:10%; height:100px;'  src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/></div>
+				<div style = 'float: right;'><img style = 'float: right; padding-top:10%; height:74px;'  src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/></div>
       </div>
 
 			</div><!--.end flex-body-->
