@@ -28,13 +28,14 @@
 
 	<header id="masthead" class="site-header" style='width:100%; padding-right:0px;' >
 		<div class="container" >
+			<?php
+			 wp_nav_menu( array(
+					 'theme_location' => 'my-custom-menu',
+					 'container_class' => 'custom-menu-class' ) );
+			?>
 		<div class="site-branding row">
 				<div class="col-6" >
-					<?php
-           wp_nav_menu( array(
-               'theme_location' => 'my-custom-menu',
-               'container_class' => 'custom-menu-class' ) );
-          ?>
+
 			<?php
 			if ( is_front_page() && is_home() ) :
 				?>
