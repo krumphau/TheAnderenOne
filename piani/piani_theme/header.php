@@ -30,12 +30,15 @@
 		<div class="container" >
 
 		<div class="site-branding row">
-				<div class="col-6" >
-					<?php
-	  			 wp_nav_menu( array(
-	  					 'theme_location' => 'my-custom-menu',
-	  					 'container_class' => 'custom-menu-class' ) );
-	  			?>
+			<div class='col-2'>
+				<?php
+				 wp_nav_menu( array(
+						 'theme_location' => 'my-custom-menu',
+						 'container_class' => 'custom-menu-class' ) );
+				?>
+			</div>
+				<div class="col-5" >
+
 			<?php
 			if ( is_front_page() && is_home() ) :
 				?>
@@ -54,7 +57,7 @@
 				<p class="site-description"><?php echo $piani_theme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 
 			</div>
-			<div class="col-6">
+			<div class="col-5">
 				<div style = 'float: right;'><img style = 'float: right; height:100px;'  src = "http://3.15.13.29:8000/wp-content/themes/piani/images/logo.png"/></div>
       </div>
 
