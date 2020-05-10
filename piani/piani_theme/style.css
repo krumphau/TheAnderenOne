@@ -1038,6 +1038,6 @@ color: #004d40;
   }
 }
 
-.container {padding-right: 48px; padding-left: 48px; margin: 0px; width: 100%;}
+.container {padding-right: 48px; padding-left: 48px; margin: 0px; width: auto;}
 
 .sidebar {background-color:#ffeed6;}
