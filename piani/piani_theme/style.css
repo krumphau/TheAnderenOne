@@ -1042,14 +1042,10 @@ color: #004d40;
 
 .sidebar {background-color:#ffeed6;}
 
-.custom-menu {margin:0px; padding-left:0px;  width: auto;}
+.custom-menu-class {margin:0px; padding-left:0px;  width: 100px; float:left;}
 
 .custom-menu-class ul ul {
     display: none;
-}
-
-.custom-menu ul li {
-
 }
 
 .custom-menu-class ul li:hover > ul {
