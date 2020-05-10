@@ -30,6 +30,11 @@
 		<div class="container" >
 		<div class="site-branding row">
 				<div class="col-6" >
+					<?php
+           wp_nav_menu( array(
+               'theme_location' => 'my-custom-menu',
+               'container_class' => 'custom-menu-class' ) );
+          ?>
 			<?php
 			if ( is_front_page() && is_home() ) :
 				?>
