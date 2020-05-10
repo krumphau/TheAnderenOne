@@ -61,5 +61,5 @@ get_sidebar( 'primary' );
 ?>
       </div>
    </div>
-
+</div>
 <?php get_footer();
