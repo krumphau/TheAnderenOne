@@ -55,7 +55,7 @@
 
 			</div>
 			<div class="col-6">
-				<div style = 'float: right;'><img style = 'float: right; height:74px;'  src = "http://3.15.13.29:8000/wp-content/themes/piani/images/logo.png"/></div>
+				<div style = 'float: right;'><img style = 'float: right; height:100px;'  src = "http://3.15.13.29:8000/wp-content/themes/piani/images/logo.png"/></div>
       </div>
 
 			</div><!--.end flex-body-->
