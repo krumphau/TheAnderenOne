@@ -57,11 +57,7 @@
 
 				 <img style = 'float: right; margin: 0.67em 0; height:74px;'  src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/></div>
       </div>
-			<?php
-			wp_nav_menu( array(
-				 'theme_location' => 'my-custom-menu',
-				 'container_class' => 'custom-menu-class' ) );
-			?>
+			
 			</div><!--.end flex-body-->
 
 			<?php endif; ?>
