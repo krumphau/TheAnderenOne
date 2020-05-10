@@ -13,3 +13,15 @@
 <div>
   <img src="http://3.15.13.29:8000/wp-content/themes/piani/images/illustrations-01.png"/>
 </div>
+<div>
+    <h2 >Il gruppo culturale</h2>
+    <p>
+      Il Gruppo Culturale organizza varie attività quali dibattiti,
+      conferenze, manifestazioni, allo scopo di promuovere
+      l’educazione sociale, civile, religiosa della popolazione
+      del quartiere dei Piani di Bolzano.
+    </p>
+</div>
+<div>
+  <img src="http://3.15.13.29:8000/wp-content/themes/piani/images/illustrations-02.png"/>
+</div>
