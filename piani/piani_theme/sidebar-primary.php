@@ -11,5 +11,5 @@
     <span>Orario: Aperto</span>
 </div>
 <div>
-  <img src="wp-content/themes/piani/images/illustrations-01.png"/>
+  <img src="http://3.15.13.29:8000/wp-content/themes/piani/images/illustrations-01.png"/>
 </div>
