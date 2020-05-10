@@ -11,7 +11,7 @@
 
     <span>Orario: Aperto</span>
 </div>
-<div>
+<div style="background-color:#ffffff;">
   <img src="http://3.15.13.29:8000/wp-content/themes/piani/images/illustrations-01.png"/>
 </div>
 <div>
@@ -23,7 +23,7 @@
       del quartiere dei Piani di Bolzano.
     </p>
 </div>
-<div>
+<div style="background-color:#ffffff;">
   <img src="http://3.15.13.29:8000/wp-content/themes/piani/images/illustrations-02.png"/>
 </div>
 <div>
