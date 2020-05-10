@@ -49,7 +49,7 @@
 
 			</div>
 			<div class="col-6">
-				<div style = 'float: right;'><img style = 'float: right; padding-top:10%; height:80%;'  src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/></div>
+				<div style = 'float: right;'><img style = 'float: right; padding-top:10%; height:100px;'  src = "http://3.15.13.29:8000/wp-content/uploads/2020/05/logotype_white@2x-1-e1588619045637.png"/></div>
       </div>
 
 			</div><!--.end flex-body-->
