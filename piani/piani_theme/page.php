@@ -17,11 +17,6 @@ get_header();
 
 	<main id="primary" class="site-main">
 		<?php
-		wp_nav_menu( array(
-			 'theme_location' => 'my-custom-menu',
-			 'container_class' => 'custom-menu-class' ) );
-		?>
-		<?php
 		while ( have_posts() ) :
 			the_post();
 

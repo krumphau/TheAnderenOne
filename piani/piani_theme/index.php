@@ -15,11 +15,7 @@
 get_header();
 ?>
 <div class="container" >
-	<?php
-	wp_nav_menu( array(
-		 'theme_location' => 'my-custom-menu',
-		 'container_class' => 'custom-menu-class' ) );
-	?>
+	
 	<div class="row" >
 		<div class="col-6" >
 	<main id="primary" class="site-main">
