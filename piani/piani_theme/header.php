@@ -59,13 +59,13 @@
       </div>
 
 			</div><!--.end flex-body-->
-			<div class="site-branding row">
+			<!--<div class="site-branding row">
 			<?php
-			wp_nav_menu( array(
-				 'theme_location' => 'my-custom-menu',
-				 'container_class' => 'custom-menu-class' ) );
+			//wp_nav_menu( array(
+			//	 'theme_location' => 'my-custom-menu',
+			//	 'container_class' => 'custom-menu-class' ) );
 			?>
-		</div>
+		</div>-->
 			<?php endif; ?>
 
 		<!-- .site-branding -->
